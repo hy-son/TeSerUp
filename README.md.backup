@@ -16,7 +16,6 @@ The second script will send the disk usae daily.
 - Make telegram-login-msg.sh usable and move it:
 	- `chmod +x telegram-login-msg.sh`
 	- 'sudo cp telegram-login-msg.sh /etc/profile.d/telegram-login-msg.sh'
-- 
 
 	 
 
