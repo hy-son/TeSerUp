@@ -5,6 +5,11 @@ Send telegram update from my serveur to a Telegram chanel.
 Idea from https://dev.to/bogkonstantin/send-message-to-telegram-on-any-ssh-login-24c8 and https://github.com/NicolasBernaerts/debian-scripts/tree/master/telegram 
 The second script will send the disk usae daily.
 
+## Requirement:
+- Python3 with matplotlib
+- Install common fronts (you can pass it) : `sudo apt-get install msttcorefonts` 
+
+
 ## Setup:
 - Install telegram script from [Nicolas Bernaerts](https://github.com/NicolasBernaerts/debian-scripts/tree/master/telegram): 
 	- `wget https://raw.githubusercontent.com/NicolasBernaerts/debian-scripts/master/telegram/telegram-notify-install.sh`
