@@ -15,5 +15,5 @@ else
 fi
 echo $icon
 echo $message
-telegram-notify "$icon" --photo /opt/TardisLink/img/disk_usage.png --text "$message"
+telegram-notify "$icon" --photo /opt/TeSerUp/img/disk_usage.png --text "$message" >/dev/null 2>&1
 
