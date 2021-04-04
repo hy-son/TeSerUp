@@ -19,7 +19,7 @@ Idea taken from this [web site](https://dev.to/bogkonstantin/send-message-to-tel
 
 ## Requirement:
 
-- Python3 with matplotlib
+- Python3 with matplotlib on root: 'python3 -m pip install matplotlib'
 - Install common fronts (you can pass it) : `sudo apt-get install msttcorefonts`
 - Cron 
 
