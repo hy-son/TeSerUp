@@ -10,8 +10,11 @@ Idea taken from this [web site](https://dev.to/bogkonstantin/send-message-to-tel
 
 ## Features:
 - Send message at each login on a Telegram chanel or user.
+
 ![Login message](https://github.com/hy-son/TeSerUp/blob/main/images/login.png)
+
 - Weekly send an update of your disk usage.
+
 ![Disk full](https://github.com/hy-son/TeSerUp/blob/main/images/Disk_full.png)
 
 ## Requirement:
