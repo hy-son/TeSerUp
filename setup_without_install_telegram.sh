@@ -15,7 +15,6 @@ cp telegram-login-msg.sh /etc/profile.d/telegram-login-msg.sh
 
 
 # Add daily report to cron tab 
-echo "00 12    * * *   root /opt/TardisLink/telegram-disk-usage.sh >/dev/null 2>&1" >> /etc/crontab
-echo ""
-echo "Please update etc/telegram-notify.conf"
+echo "00 12    * * 6   root /opt/TardisLink/telegram-disk-usage.sh >/dev/null 2>&1" >> /etc/crontab
+
 
