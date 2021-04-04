@@ -1,4 +1,4 @@
-# TardisLink
+# TeSerUp
 
 ## Goal:
 Send telegram update from my serveur to a Telegram chanel.
