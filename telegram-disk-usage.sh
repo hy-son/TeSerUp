@@ -2,8 +2,9 @@
 
 
 used_disk=$(df --output=pcent / | tr -dc '0-9')
+used_boot=$(df --output=pcent /boot | tr -dc '0-9')
 time_msg="$(date +"%e %b %Y, %a %r")"
-python3 disk-usage-image.py --used_percent $used_disk
+python3 disk-usage-image.py --used_percent $used_disk --used_boot_percent $used_boot
 
 message="Disk usage of the server"$'\n'"Time: $time_msg"$'\n'"Disk used: $used_disk %"
 
