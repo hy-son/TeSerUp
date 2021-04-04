@@ -10,7 +10,9 @@ Idea taken from this [web site](https://dev.to/bogkonstantin/send-message-to-tel
 
 ## Features:
 - Send message at each login on a Telegram chanel or user.
+![Login message](https://github.com/hy-son/TeSerUp/blob/main/images/login.png)
 - Weekly send an update of your disk usage.
+![Disk full](https://github.com/hy-son/TeSerUp/blob/main/images/Disk_full.png)
 
 ## Requirement:
 
@@ -26,8 +28,3 @@ Idea taken from this [web site](https://dev.to/bogkonstantin/send-message-to-tel
 		- test it with `telegram-notify --text "test msg"`. This should send a message on your chanel or to the user.
 - Install the bot scripts **only**: `sudo .setup_without_install_telegram.sh`
 	- To be used if you already have the telegram script (and configured it) 
-
-	 
-
-
-
