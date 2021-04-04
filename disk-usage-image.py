@@ -36,4 +36,4 @@ ax[1].axis("off")
 ax[1].axis('equal') 
 
 plt.tight_layout()
-fig.savefig("/opt/TardisLink/img/disk_usage.png")
+fig.savefig("/opt/TeSerUp/img/disk_usage.png")
