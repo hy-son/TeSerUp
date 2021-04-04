@@ -9,4 +9,4 @@ login_name="$(whoami)"
 message="New login to server"$'\n'"User: $login_name"$'\n'"IP: $login_ip"$'\n'"Date: $login_date"
 
 #send it to telegram
-telegram-notify --success --text  "$message"
+telegram-notify --success --text  "$message" >/dev/null 2>&1
