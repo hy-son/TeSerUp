@@ -11,17 +11,12 @@ The second script will send the disk usae daily.
 
 
 ## Setup:
-- Install telegram script from [Nicolas Bernaerts](https://github.com/NicolasBernaerts/debian-scripts/tree/master/telegram): 
-	- `wget https://raw.githubusercontent.com/NicolasBernaerts/debian-scripts/master/telegram/telegram-notify-install.sh`
-	- `chmod +x telegram-notify-install.sh`
-	- `sudo ./telegram-notify-install.sh`
-- Set your api-key and user/chanel id  in /etc/telegram-notify.conf:
-	- `sudo nano /etc/telegram-notify.conf`
-	- test with `telegram-notify --text "test msg"`
-- Make telegram-login-msg.sh usable and move it:
-	- `chmod +x telegram-login-msg.sh`
-	- 'sudo cp telegram-login-msg.sh /etc/profile.d/telegram-login-msg.sh'
-- 
+- Install the bot scripts **and** the telegram script from [Nicolas Bernaerts](https://github.com/NicolasBernaerts/debian-scripts/tree/master/telegram): `sudo .setup.sh`	
+	- Set your api-key and user/chanel id  in /etc/telegram-notify.conf:
+		- sudo nano /etc/telegram-notify.conf`
+		- test with `telegram-notify --text "test msg"`
+- Install the bot scripts **only**: `sudo .setup_without_install_telegram.sh`
+	- To be used if you already have the telegram script (and configured it) 
 
 	 
 
