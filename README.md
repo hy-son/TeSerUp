@@ -16,6 +16,7 @@ Idea taken from this [web site](https://dev.to/bogkonstantin/send-message-to-tel
 - Weekly send an update of your disk usage.
 
 ![Disk full](https://github.com/hy-son/TeSerUp/blob/main/images/Disk_full.png)
+![Disk low](https://github.com/hy-son/TeSerUp/blob/main/images/Disk_low.png)
 
 ## Requirement:
 
